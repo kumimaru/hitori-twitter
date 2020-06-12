@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ひとりツイッター</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/jquery-3.3.1.min.js"></script>
+  <script src="assets/hitori-twitter.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <img src="assets/img/sika.jpg" width="32" height="32">
+      <form id="form">
+        <textarea placeholder="いまどうしてる？"></textarea>
+        <div class="clearfix">
+          <input type="submit" value="ツイート" class="float-right">
+        </div>
+      </form>
+    </header>
+    <main>
+      <div class="stream">
+      </div>
+    </main>
+    <footer>
+      <button id="resetBtn">すべてのツイートを削除</button>
+    </footer>
+  </div>
+</body>
+</html>
